@@ -1,0 +1,65 @@
+/* General styling for the entire website */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Blog post titles */
+h1, h2 {
+    color: #e92323;
+    text-align: left;
+    margin: 10px 0;
+}
+
+/* Blog post section */
+.blog-post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #fff;
+}
+
+/* Blog descriptions */
+p {
+    color: #555;
+    margin: 10px 0;
+}
+a{
+    color: #090909;
+    
+}
+
+/* Box-sizing to include padding and borders in total width/height */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
